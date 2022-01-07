@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.description-p {
+    font-weight: 400;
+    color: rgb(187, 187, 187);
+    font-size: 13px !important;
+}
+
+.btn {
+    color: #fff !important;
+    transition: all .3s;
+}
+
+.btn:hover{
+    background-color: red;
+}
+.box-header {
+    font-weight: 700;
+    font-size: 16px !important;
+}
+
+.bi-three-dots {
+    font-size: 18px !important;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff !important;
+}
+
+.profile-row {
+    background-color: rgb(138, 101, 226);
+    margin-right: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 15px 10px 10px 25px;
+}
+
+.profile-description {
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.description-p-profile {
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.description-header {
+    color: #fff;
+}
+
+.days-row {
+    background-color: rgb(38, 47, 94);
+    margin-right: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0;
+}
+
+.total-row {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.image-row-work {
+    padding: 10px 10px;
+    background-color: rgb(253, 136, 82);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-row-play {
+    padding: 10px 10px;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-row-study {
+    padding: 10px 10px;
+    background-color: crimson;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-row-exercise {
+    padding: 10px 10px;
+    background-color: rgb(140, 233, 140);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-row-social {
+    padding: 10px 10px;
+    background-color: rgb(224, 82, 253);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-row-care {
+    padding: 10px 10px;
+    background-color: rgb(243, 243, 119);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img-w {
+    width: 30px;
+    height: 30px;
+}
+
+.titles-row {
+    background-color: rgb(38, 47, 94);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 13px 0px;
+}
+
+.titles h1 {
+    color: #fff;
+}
+
+.titles h5 {
+    color: #fff;
+}
+
+.box {
+    margin: 5px 5px;
+}
