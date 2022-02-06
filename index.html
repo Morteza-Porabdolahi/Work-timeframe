@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <script src="scripts/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Document</title>
@@ -33,8 +32,8 @@
                     <section class="row days-row">
                         <section class="col-md-12">
                             <button class="btn-daily btn btn-block" id="daily">Daily</button>
-                            <button class="btn-weekly btn btn-block">Weekly</button>
-                            <button class="btn-monthly btn btn-block">Monthly</button>
+                            <button class="btn-weekly btn btn-block" id="weekly">Weekly</button>
+                            <button class="btn-monthly btn btn-block" id="monthly">Monthly</button>
                         </section>
                     </section>
                 </section>
@@ -52,7 +51,7 @@
                                 <section class="col-md-9">
                                     <section class="titles">
                                         <h5 class="box-header">Work</h5>
-                                        <h1 class="work-hrs"></h1>
+                                        <h1 class="daily-hrs"></h1>
                                         <p class="description-p p-work">Last -</p>
                                     </section>
                                 </section>
@@ -71,7 +70,7 @@
                                 <section class="col-md-9">
                                     <section class="titles">
                                         <h5 class="box-header">Play</h5>
-                                        <h1 class="play-hrs"></h1>
+                                        <h1 class="daily-hrs"></h1>
                                         <p class="description-p play-p">Last - </p>
                                     </section>
                                 </section>
@@ -90,7 +89,7 @@
                                 <section class="col-md-9">
                                     <section class="titles">
                                         <h5 class="box-header">Study</h5>
-                                        <h1 class="study-hrs"></h1>
+                                        <h1 class="daily-hrs"></h1>
                                         <p class="description-p p-study">Last - </p>
                                     </section>
                                 </section>
@@ -111,7 +110,7 @@
                                 <section class="col-md-9">
                                     <section class="titles">
                                         <h5 class="box-header">Exercise</h5>
-                                        <h1 class="exercise-hrs"></h1>
+                                        <h1 class="daily-hrs"></h1>
                                         <p class="description-p p-exercise">Last -</p>
                                     </section>
                                 </section>
@@ -130,7 +129,7 @@
                                 <section class="col-md-9">
                                     <section class="titles">
                                         <h5 class="box-header">Social</h5>
-                                        <h1 class="social-hrs"></h1>
+                                        <h1 class="daily-hrs"></h1>
                                         <p class="description-p p-social">Last -</p>
                                     </section>
                                 </section>
@@ -149,7 +148,7 @@
                                 <section class="col-md-9">
                                     <section class="titles">
                                         <h5 class="box-header">Self Care</h5>
-                                        <h1 class="care-hrs"></h1>
+                                        <h1 class="daily-hrs"></h1>
                                         <p class="description-p p-cares">Last -</p>
                                     </section>
                                 </section>
@@ -162,6 +161,7 @@
 
         </section>
     </section>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
     <script src="scripts/app.js"></script>
 </body>
 
