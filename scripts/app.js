@@ -15,7 +15,7 @@ $.getJSON("scripts/data.json", function (data) {
             element.innerHTML = '';
         });
         prevConvertToArr.forEach(element => {
-            element.innerHTML = 'Last - ';
+            element.innerHTML = 'Last Day - ';
         });
         data.forEach(element => {
             currentItems.push(element.timeframes.daily.current);
@@ -34,7 +34,7 @@ $.getJSON("scripts/data.json", function (data) {
             element.innerHTML = '';
         });
         prevConvertToArr.forEach(element => {
-            element.innerHTML = 'Last - ';
+            element.innerHTML = 'Last Week - ';
         });
         data.forEach(element => {
             currentItems.push(element.timeframes.weekly.current);
@@ -53,7 +53,7 @@ $.getJSON("scripts/data.json", function (data) {
             element.innerHTML = '';
         });
         prevConvertToArr.forEach(element => {
-            element.innerHTML = 'Last - ';
+            element.innerHTML = 'Last Month - ';
         });
         data.forEach(element => {
             currentItems.push(element.timeframes.monthly.current);
